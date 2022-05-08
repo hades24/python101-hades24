@@ -1,1 +1,1 @@
-hrs = float(input("enter hours \n"))
+hrs = float(input("enter hours \n")) 
