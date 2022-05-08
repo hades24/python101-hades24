@@ -6,4 +6,4 @@ def payment():
   else:
     return 0
 
-payment()
+payment() 
