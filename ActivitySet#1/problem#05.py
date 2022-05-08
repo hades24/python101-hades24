@@ -1,12 +1,9 @@
-# Functions
+def payment():
+  a=float(input("enter number of hours\n"))
+  b=float(input("enter rate per hour\n"))
+  if a or b != 0:
+    print("payment : ",a*b)
+  else:
+    return 0
 
-
-def computepay(h, r):
-    pass  # ...
-
-
-hrs = float(input("Enter hours? "))
-rte = float(input("Enter rate per hour? "))
-
-p = computepay(hrs, rte)
-print("Pay", p)
+payment()
