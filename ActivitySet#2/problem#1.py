@@ -1,12 +1,7 @@
+def add(a,b):
+  return a+b
 
-
-def add(a, b):
-    return  # ...
-
-
-def main():
-    a = input  # ...
-    b = input  # ...
-
-    c = add(a, b)
-    print  # ...
+a=int(input("enter a number \n"))
+b=int(input("enter a number \n"))
+c=add(a,b)
+print("sum : ", c)
