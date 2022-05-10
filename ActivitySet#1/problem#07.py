@@ -4,4 +4,4 @@ for a in text:
   if a.isdigit():
     num = num + a
 x=float(num)
-print(x)
+print(x) 
